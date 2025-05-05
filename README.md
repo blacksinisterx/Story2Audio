@@ -74,8 +74,9 @@ The Story2Audio system consists of the following key components:
 
 ### Prerequisites
 
-- Python 3.8+
+- Python 3.10.0 
 - Docker and Docker Compose (for containerized setup)
+- ffmpeg for audio processing
 - 8GB+ RAM recommended for optimal performance
 - GPU support recommended but not required
 
@@ -106,20 +107,27 @@ git clone https://github.com/yourusername/story2audio.git
 cd story2audio
 
 # Create and activate a virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+conda create -n story_to_audio  # create environment
+conda activate story_to_audio   # activate environment
 
 # Install dependencies
 pip install -r requirements.txt
+pip install -r voice_cloning.requirements.txt
 
-# Download required models
-python scripts/download_models.py
+# Download the TTS weights from and place them in voice_cloning/ckpts/F5TTS
+https://huggingface.co/SWivid/F5-TTS
 
-# Start the gRPC server
-python src/server.py
+# Run ollama by typing the command below in cmd:
+ollama serve
 
+# Start the individual gRPC servers for below in different terminals
+python story_service.py
+python audio_service.py
+
+# open a new terminal and run main.py (the api that would listen requests from gradio app and other clients)
+python main.py
 # In a separate terminal, start the Gradio UI
-python src/frontend/app.py
+python frontend.py
 ```
 
 ## API Documentation
@@ -128,7 +136,7 @@ python src/frontend/app.py
 
 The Story2Audio service exposes the following gRPC endpoints:
 
-#### `/generate` (Primary Endpoint)
+#### `/story-to-audio` (Primary Endpoint)
 
 Generates an audio story from a given storyline.
 
@@ -273,6 +281,7 @@ The system was tested with varying numbers of concurrent requests to measure per
 |           20 |      593.69 |    26.9 |    82.2 |    57.9 |
 
 ![Performance Graphs](https://github.com/user-attachments/assets/474e0e95-e8f9-4771-a891-08af3a35a3de)
+
 
 
 ## Contributers
