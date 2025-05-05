@@ -2,7 +2,8 @@
 
 ## 🎙️ Turn Text Stories into Emotionally Expressive Audio Narratives
 
-![Story2Audio Banner](https://via.placeholder.com/800x200?text=Story2Audio)
+![Story2Audio Banner](https://github.com/user-attachments/assets/090b4632-332f-4388-b243-a2ebc868c08e)
+
 
 ## Table of Contents
 - [Project Overview](#project-overview)
@@ -55,7 +56,8 @@ The Story2Audio system consists of the following key components:
 5. **Audio Generation**: Creates final audio output with appropriate emotional expressions
 6. **Gradio Frontend**: User-friendly interface for interacting with the service
 
-![Architecture Diagram](https://via.placeholder.com/800x400?text=Architecture+Diagram)
+![Architecture Diagram](https://github.com/user-attachments/assets/3be3487c-3093-40ce-98a6-43a26ea34c1f)
+
 
 ### Data Flow
 
