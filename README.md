@@ -263,9 +263,17 @@ The Story2Audio service has been rigorously tested for performance and scalabili
 
 The system was tested with varying numbers of concurrent requests to measure performance degradation:
 
+=== PERFORMANCE SUMMARY ===
 
+| Concurrency | Avg Time (s) | CPU (%) | Mem (%) | GPU (%) |
+|-------------:|-------------:|--------:|--------:|--------:|
+|            1 |       81.58 |    17.2 |    84.3 |    39.5 |
+|            5 |      241.88 |    22.2 |    81.6 |    54.0 |
+|           10 |      372.85 |    25.3 |    78.7 |    58.9 |
+|           20 |      593.69 |    26.9 |    82.2 |    57.9 |
 
-![Performance Graph](https://via.placeholder.com/800x400?text=Performance+Graph)
+![Performance Graphs](https://github.com/user-attachments/assets/474e0e95-e8f9-4771-a891-08af3a35a3de)
+
 
 #### Resource Utilization
 
