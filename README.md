@@ -26,6 +26,8 @@
 - [Testing & Performance](#testing--performance)
   - [Test Cases](#test-cases)
   - [Performance Metrics](#performance-metrics)
+- [Limitations](#limitations)
+- [Future Work](#to-do) 
 - [Contributers](#contributers)
   
 
@@ -285,11 +287,11 @@ The system was tested with varying numbers of concurrent requests to measure per
 # Limitations 
 Current limitations of the Story2Audio system include:
 
-Story Length: Currently optimized for short to medium-length stories (up to ~1000 words)
-Language Support: Currently supports English text only
-Emotion Granularity: Limited to 8 basic emotions
-Processing Time: Audio generation can take several minutes for longer stories
-Voice Quality: Custom voice cloning quality depends on recording clarity and consistency
+- Story Length: Currently optimized for short to medium-length stories (up to ~1000 words)
+- Language Support: Currently supports English text only
+- Emotion Granularity: Limited to 8 basic emotions
+- Processing Time: Audio generation can take several minutes for longer stories
+- Voice Quality: Custom voice cloning quality depends on recording clarity and consistency
 
 # TODO:
  Convert this to story to video
