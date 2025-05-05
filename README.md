@@ -26,7 +26,8 @@
 - [Testing & Performance](#testing--performance)
   - [Test Cases](#test-cases)
   - [Performance Metrics](#performance-metrics)
-  - [Resource Utilization](#resource-utilization)
+- [Contributers](#contributers)
+  
 
 
 ## Project Overview
@@ -275,14 +276,10 @@ The system was tested with varying numbers of concurrent requests to measure per
 ![Performance Graphs](https://github.com/user-attachments/assets/474e0e95-e8f9-4771-a891-08af3a35a3de)
 
 
-#### Resource Utilization
-
-Resource utilization was measured during story generation and audio synthesis:
-
-- **Story Enhancement**: Requires approximately 2GB RAM for LLM processing
-- **Voice Cloning**: Requires approximately 3GB RAM for model inference
-- **Audio Generation**: Scales linearly with story length
-
+## Contributers
+- Sammar Kaleem
+- Malaika Saleem
+- Aiza Ali
 
 
 
