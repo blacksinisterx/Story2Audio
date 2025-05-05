@@ -1,0 +1,37 @@
+syntax = "proto3";
+
+//package videostory;
+package storyservice
+service VideoStoryService {
+  // Server A sends story to Server B
+  rpc GenerateSceneImages (StoryRequest) returns (ImageResponse);
+}
+
+message StoryRequest {
+  string story_text = 1;
+  repeated SceneBreakdown scenes = 2;
+  string style_parameters = 3;
+  string story_id = 4;
+}
+
+message SceneBreakdown {
+  string scene_text = 1;
+  int32 scene_number = 2;
+  float start_time = 3;
+  float end_time = 4;
+}
+
+message ImageResponse {
+  repeated SceneImage scene_images = 1;
+  string story_id = 2;
+  bool success = 3;
+  string error_message = 4;
+}
+
+message SceneImage {
+  bytes image_data = 1;
+  int32 scene_number = 2;
+  float start_time = 3;
+  float end_time = 4;
+  string image_prompt = 5;
+}

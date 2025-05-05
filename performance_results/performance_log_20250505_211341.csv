@@ -1,0 +1,44 @@
+Concurrency,Request ID,Response Time (s),Status Code,Genre,Response Preview
+1,1,68.77647948265076,503,Sci-Fi,Error
+1,2,94.37576746940613,200,Mystery,Rain lashed against the windows of Detective Hardi
+5,4,237.18229627609253,200,Horror,"The Blackwood Manor stood silent, draped in perpet"
+5,3,255.9502055644989,200,Adventure,Rain lashed against Elara’s battered jeep as she n
+5,5,301.5870018005371,200,Fantasy,"Sir Kaelen, sworn protector of Eldoria, rode towar"
+5,1,334.0512809753418,200,Sci-Fi,Dr. Aris Thorne and Lena Reyes detected a harmonic
+5,2,342.23586082458496,200,Mystery,Rain lashed against the windows of Detective Hardi
+5,6,96.52478241920471,503,Sci-Fi,Error
+5,7,125.66021227836609,200,Mystery,Rain lashed against the windows as Detective Hardi
+10,5,245.71981477737427,503,Fantasy,Error
+10,3,254.5231876373291,200,Adventure,"Elara, a cartographer’s daughter, chased storms ac"
+10,2,328.85988450050354,503,Mystery,Error
+10,10,343.771808385849,503,Fantasy,Error
+10,4,393.8085358142853,200,Horror,"Rain hammered Blackwood Manor, each drop a mournfu"
+10,9,488.6693377494812,200,Horror,Rain lashed against Blackwood Manor. Locals whispe
+10,1,488.90224528312683,200,Sci-Fi,"Dr. Aris Thorne and Lena Reyes, obsessed with quan"
+10,8,496.68777441978455,200,Adventure,Rain lashed against the jeep as Lyra chased rumors
+10,7,544.8106677532196,200,Mystery,Rain hammered Blackwood Manor. Detective Harding a
+10,6,589.8704586029053,200,Sci-Fi,Dr. Aris Thorne and Lena Reyes stumbled upon it – 
+10,12,132.37053894996643,200,Mystery,Rain lashed against the windows as Detective Hardi
+10,11,166.20838594436646,200,Sci-Fi,Dr. Aris Thorne and Dr. Lena Hanson detected a har
+20,8,484.0874574184418,200,Adventure,"Rain lashed against the sails as Lyra, a seasoned "
+20,2,509.22892689704895,503,Mystery,Error
+20,1,556.1106660366058,200,Sci-Fi,Dr. Aris Thorne and Dr. Lena Hanson stumbled upon 
+20,7,592.114232301712,503,Mystery,Error
+20,10,626.5623440742493,200,Fantasy,"Sir Kaelen, knight of Eldoria, rode toward the Sha"
+20,6,-1,0,Sci-Fi,"HTTPConnectionPool(host='localhost', port=5000): Read timed out. (read timeout=800)"
+20,19,-1,0,Horror,"HTTPConnectionPool(host='localhost', port=5000): Read timed out. (read timeout=800)"
+20,5,-1,0,Fantasy,"HTTPConnectionPool(host='localhost', port=5000): Read timed out. (read timeout=800)"
+20,12,-1,0,Mystery,"HTTPConnectionPool(host='localhost', port=5000): Read timed out. (read timeout=800)"
+20,13,-1,0,Adventure,"HTTPConnectionPool(host='localhost', port=5000): Read timed out. (read timeout=800)"
+20,18,-1,0,Adventure,"HTTPConnectionPool(host='localhost', port=5000): Read timed out. (read timeout=800)"
+20,4,-1,0,Horror,"HTTPConnectionPool(host='localhost', port=5000): Read timed out. (read timeout=800)"
+20,11,-1,0,Sci-Fi,"HTTPConnectionPool(host='localhost', port=5000): Read timed out. (read timeout=800)"
+20,20,-1,0,Fantasy,"HTTPConnectionPool(host='localhost', port=5000): Read timed out. (read timeout=800)"
+20,9,-1,0,Horror,"HTTPConnectionPool(host='localhost', port=5000): Read timed out. (read timeout=800)"
+20,15,-1,0,Fantasy,"HTTPConnectionPool(host='localhost', port=5000): Read timed out. (read timeout=800)"
+20,3,-1,0,Adventure,"HTTPConnectionPool(host='localhost', port=5000): Read timed out. (read timeout=800)"
+20,14,-1,0,Horror,"HTTPConnectionPool(host='localhost', port=5000): Read timed out. (read timeout=800)"
+20,16,-1,0,Sci-Fi,"HTTPConnectionPool(host='localhost', port=5000): Read timed out. (read timeout=800)"
+20,17,-1,0,Mystery,"HTTPConnectionPool(host='localhost', port=5000): Read timed out. (read timeout=800)"
+20,21,794.02485704422,200,Sci-Fi,Dr. Aris Thorne and Lena Reyes stumbled upon a shi
+20,22,-1,0,Mystery,"HTTPConnectionPool(host='localhost', port=5000): Read timed out. (read timeout=800)"

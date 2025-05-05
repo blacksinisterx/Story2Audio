@@ -1,0 +1,58 @@
+syntax = "proto3";
+
+package story_service;
+
+service StoryGenerator {
+  // Generate a story based on storyline and genre
+  rpc GenerateStory (StoryRequest) returns (StoryResponse) {}
+  
+  // Break a story into sentences with associated emotions
+  rpc ProcessStoryEmotions (ProcessRequest) returns (ProcessResponse) {}
+  
+  // Divide a story into scenes with image prompts
+  rpc GenerateScenePrompts (SceneRequest) returns (SceneResponse) {}
+}
+
+message StoryRequest {
+  string storyline = 1;
+  string genre = 2;
+}
+
+message StoryResponse {
+  string story = 1;
+  bool success = 2;
+  string error = 3;
+}
+
+message ProcessRequest {
+  string story = 1;
+}
+
+message ProcessResponse {
+  repeated SentenceEmotion sentences = 1;
+  bool success = 2;
+  string error = 3;
+}
+
+message SentenceEmotion {
+  string text = 1;
+  string emotion = 2;
+}
+
+message SceneRequest {
+  string story = 1;
+  int audio_duration=2;
+}
+
+message SceneResponse {
+  repeated ScenePrompt scenes = 1;
+  bool success = 2;
+  string error = 3;
+}
+
+message ScenePrompt {
+  int32 scene_number = 1;
+  int32 start_line = 2;
+  int32 end_line = 3;
+  string image_prompt = 4;
+}

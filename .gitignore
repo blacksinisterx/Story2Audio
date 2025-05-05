@@ -1,0 +1,86 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Large model files and checkpoints
+*.pt
+*.pth
+*.bin
+*.onnx
+*.tflite
+*.pb
+*.safetensors
+# But explicitly ignore specific model file
+voice_cloning/ckpts/F5_TTS/model_1200000.safetensors
+
+# Audio files
+*.wav
+*.mp3
+*.flac
+*.ogg
+
+# Temporary files
+.DS_Store 
+Thumbs.db
+*.tmp
+*.bak
+
+# Docker
+.dockerignore
+*.tar
+*.tar.gz
+docker-compose.override.yml
+.docker/
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg

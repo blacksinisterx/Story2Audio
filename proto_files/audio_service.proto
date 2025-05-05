@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package audio_service;
+
+service AudioGenerator {
+  // Generate audio from text with emotions
+  rpc GenerateAudio (AudioRequest) returns (AudioResponse) {}
+}
+
+message AudioRequest {
+  repeated TextEmotion segments = 1;
+}
+
+message TextEmotion {
+  string text = 1;
+  string emotion = 2;
+}
+
+message AudioResponse {
+  string audio_file_path = 1;
+  bool success = 2;
+  string error = 3;
+}

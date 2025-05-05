@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+package image_service;
+
+service ImageGenerator {
+  // Generate images from scene prompts
+  rpc GenerateImages (ImageRequest) returns (ImageResponse) {}
+}
+
+message ImageRequest {
+  repeated ScenePrompt scenes = 1;
+}
+
+message ScenePrompt {
+  int32 scene_number = 1;
+  string image_prompt = 2;
+}
+
+message ImageResponse {
+  repeated GeneratedImage images = 1;
+  bool success = 2;
+  string error = 3;
+}
+
+message GeneratedImage {
+  int32 scene_number = 1;
+  string image_path = 2;
+}
