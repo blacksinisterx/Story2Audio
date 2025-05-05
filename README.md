@@ -26,6 +26,7 @@
 - [Testing & Performance](#testing--performance)
   - [Test Cases](#test-cases)
   - [Performance Metrics](#performance-metrics)
+  - [Resource Utilization](#resource-utilization)
 
 
 ## Project Overview
@@ -274,14 +275,6 @@ Resource utilization was measured during story generation and audio synthesis:
 - **Voice Cloning**: Requires approximately 3GB RAM for model inference
 - **Audio Generation**: Scales linearly with story length
 
-## Limitations & Future Work
-
-Current limitations of the Story2Audio system include:
-
-- **Story Length**: Currently optimized for short to medium-length stories (up to ~1000 words)
-- **Language Support**: Currently supports English text only
-- **Processing Time**: Audio generation can take several minutes for longer stories
-- **Voice Quality**: Custom voice cloning quality depends on recording clarity and consistency
 
 
 
