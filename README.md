@@ -193,7 +193,7 @@ The Gradio interface provides a user-friendly way to interact with the Story2Aud
 5. Click "Generate" and wait for the story processing to complete
 6. Listen to the generated audio story and view the enhanced text
 
-![Gradio UI Screenshot](https://via.placeholder.com/800x600?text=Gradio+UI+Screenshot)
+![Gradio UI Screenshot](![image](https://github.com/user-attachments/assets/83d7e5c1-d662-4106-8984-f9ecd6bfd8ca))
 
 ### Postman Collection
 
