@@ -193,7 +193,7 @@ message Status {
 The Gradio interface provides a user-friendly way to interact with the Story2Audio service:
 
 1. Enter your storyline in the text input field
-2. Select a genre from the dropdown menu
+2. Select genre of choice from the dropdown menu
 3. Choose whether to use your own voice recordings or the default voice
 4. If using custom voice, upload 8 audio recordings corresponding to different emotions:
    - Angry
