@@ -28,7 +28,7 @@
   - [Performance Metrics](#performance-metrics)
 - [Limitations](#limitations)
 - [Future Work](#to-do) 
-- [Contributers](#contributers)
+- [Contributors](#contributors)
   
 
 
@@ -296,7 +296,7 @@ Current limitations of the Story2Audio system include:
 # TODO:
  Convert this to story to video
 
-## Contributers
+## Contributors
 - Sammar Kaleem
 - Malaika Saleem
 - Aiza Ali
