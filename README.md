@@ -294,7 +294,9 @@ Current limitations of the Story2Audio system include:
 - Voice Quality: Custom voice cloning quality depends on recording clarity and consistency
 
 # TODO:
- Convert this to story to video
+- Convert this story to video
+- Add multi-language support beyond English
+- Support longer stories (currently capped at ~1000 words)
 
 ## Contributors
 - Sammar Kaleem
